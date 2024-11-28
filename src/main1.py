@@ -48,7 +48,7 @@ pygame.display.set_caption("Fighter Jet PvP")
 class Environment:
     def __init__(self):
         self.yellow_health = 5
-        self.red_health = 5
+        self.red_health = 20
 
     def update(self, yellow, red, yellow_bullets, red_bullets, yellow_action, red_action):
         self.update_yellow(yellow, yellow_action)
